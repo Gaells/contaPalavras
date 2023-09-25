@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Contador de Palavras</title>
+</head>
+<body>
+    <h1>Contador de Palavras</h1>
+    <label for="inputWord">Digite uma palavra:</label>
+    <input type="text" id="inputWord" oninput="countWords()">
+    <p>A frase contem:</p>
+    <p>Quantidade de palavras digitadas: 
+    <span id="word-counter">0</span>
+    <p>Essa palavra contem <span id="char-counter">0</span> Caracteres:</p>
+    <p>Essa palavra contem <span id="vowel-counter">0</span> vogais:</p>
+    <p>Essa palavra contem <span id="consonant-counter">0</span> consoantes:</p>
+    <p>Essa palavra contem <span id="space-counter">0</span> espaço(s):</p>
+    <script src="script.js"></script>
+</body>
+</html>
